@@ -137,7 +137,7 @@
 
         todoList.controller("TodoController",function ($scope) {
             $scope.today = new Date();
-            $scope.appTitle = "Miha's Shopping List";
+            $scope.appTitle = "Bogdan's Shopping List";
             $scope.appHeadline = "To simplify life!";
             $scope.saved = localStorage.getItem('todos');
             $scope.todos = (localStorage.getItem('todos') !== null) ? JSON.parse($scope.saved) : [{ text: 'Paine', done: false }, { text: 'Lapte', done: false }];
